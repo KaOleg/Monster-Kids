@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.menu {
+    width: 15%;
+    position: fixed;
+    background-color: #45015d;
+    height: 100%;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+}
+.content {
+    width: 75%;
+    margin-left: 25%;
+    padding-top: 80px;
+    padding-right: 40px;
+}
+.menu a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+}
+.menu h2 {
+    margin-bottom: 20px;
+}
+.menu a:hover {
+    background-color: white;
+    color: #45015d;
+}
+.content h1 {
+    font-size: 64px;
+}
+.section-title h2 {
+    color: #45015d;
+    font-size: 48px;
+    margin: 10px 0px;
+}
+.section-title hr {
+    border: 5px solid #45015d;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+.section-title img {
+    width: 300px;
+    border-radius: 15px;
+}
+.people {
+    text-align: center;
+    vertical-align: top;
+    font-size: 20px;
+}
+.people img {
+    width: 200px;
+    border-radius: 10px;
+}
+.people a {
+    text-decoration: none;
+    font-size: 23px;
+    color: crimson;
+}
+.people a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.monstrick {
+    display: inline-block;
+    width: 278px;
+}
+.vladivostok {
+    font-size: 30px;
+}
+.number {
+    font-size: 20px;
+}
+.about-us {
+    background-color: #45015d;
+    width: 100%;
+    padding: 30px;
+}
+.about-us p {
+    color: white;
+    font-weight: bold;
+    margin-top: 3px;
+    font-size: 40px;
+}
+.about-us a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+.about-us a:hover {
+    background-color: white;
+    color: #45015d;
+}
+.soc {
+    background-color: black;
+    margin-top: 30px;
+    padding: 15px 30px;
+}
+.soc img {
+    width: 120px;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+.soc p {
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.soc a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+}
+body {
+    background-color: lightblue;
+}
+html {
+    scroll-behavior: smooth;
+}
